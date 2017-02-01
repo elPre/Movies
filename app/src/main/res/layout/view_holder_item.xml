@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_holder_item_poster_id"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@android:mipmap/sym_def_app_icon"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"/>
+
+

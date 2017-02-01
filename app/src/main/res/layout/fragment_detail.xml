@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/posterId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+
+
+            <TextView
+                android:id="@+id/tvContentDetailTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/posterId"
+                android:fontFamily="sans-serif"
+                android:text="@string/hello_world"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/tvContentDetailOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvContentDetailTitle"
+                android:fontFamily="monospace"
+                android:text="@string/hello_world"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
